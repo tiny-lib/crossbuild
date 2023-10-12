@@ -18,3 +18,28 @@ type LocalBuild struct {
 	BeforeCompressFn func(ctx context.Context) error
 	AfterCompressFn  func(ctx context.Context) error
 }
+
+func (l LocalBuild) BeforeBuild(ctx context.Context) error {
+	//TODO implement me
+	panic("implement me")
+}
+
+func (l LocalBuild) AfterBuild(ctx context.Context) error {
+	//TODO implement me
+	panic("implement me")
+}
+
+func (l LocalBuild) BeginBuild(ctx context.Context) error {
+	//TODO implement me
+	panic("implement me")
+}
+
+func (l LocalBuild) BeforeCompress(ctx context.Context) error {
+	//TODO implement me
+	panic("implement me")
+}
+
+func (l LocalBuild) AfterCompress(ctx context.Context) error {
+	//TODO implement me
+	panic("implement me")
+}
