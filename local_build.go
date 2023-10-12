@@ -8,6 +8,7 @@ type LocalBuild struct {
 	Targets    []string `yaml:"targets,omitempty" json:"targets,omitempty"`
 	GoProxy    string   `yaml:"go_proxy,omitempty" json:"go_proxy,omitempty"`
 	Ldflags    string   `yaml:"ldflags,omitempty" json:"ldflags,omitempty"`
+	BuildMode  string   `yaml:"build_mode,omitempty" json:"build_mode,omitempty"`
 	CgoEnabled bool     `yaml:"cgo_enabled,omitempty" json:"cgo_enabled,omitempty"`
 
 	OutPut         string `yaml:"output,omitempty" json:"output,omitempty"`
