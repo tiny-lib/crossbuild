@@ -2,7 +2,7 @@ package target
 
 import "strings"
 
-// the below code was from goreleaser
+// the below code was ref goreleaser
 var (
 	targetsCheckList = []string{
 		"aixppc64",
@@ -51,7 +51,7 @@ var (
 		"windowsamd64",
 	}
 
-	validGoos = []string{
+	allGoos = []string{
 		"aix",
 		"android",
 		"darwin",
@@ -69,7 +69,7 @@ var (
 		"wasip1",
 	}
 
-	validGoarch = []string{
+	allGoarch = []string{
 		"386",
 		"amd64",
 		"arm",
